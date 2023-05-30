@@ -1,0 +1,137 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container_first {
+    background: url(./IKI04351-minn.jpeg);
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    overflow: hidden; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.bg_linear {
+        background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.25)),
+        url('images/background.jpg');
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        color: rgb(0, 0, 0);
+}
+
+.logo-vills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.container_second {
+    /* background: url(assets/IKI04340.jpeg); */
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.words {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 24px;
+    position: inherit;
+}
+
+p {
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.video-container {
+    position: relative;
+    width: 80%;
+    padding-bottom: 45%; /* 16:9 aspect ratio (h/w * 100) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.container_third {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    overflow: hidden; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.spotify-container {
+    position: relative;
+    width: 60%;
+    padding-bottom: 45%; /* 16:9 aspect ratio (h/w * 100) */
+}
+
+.spotify-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max: 400) {
+    .spotify-container {
+        width: 100%;
+    }
+    
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+}
